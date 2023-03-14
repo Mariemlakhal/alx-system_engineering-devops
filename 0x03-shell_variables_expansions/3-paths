@@ -1,2 +1,2 @@
 #!/bin/bash
-IFS=':' read -ra dirs_in_path <<< "$PATH" | count=0 | for dir in "${dirs_in_path[@]" | do if [ -d "$dir" ] | the, ((count++)) fi done
+IFS=':' read -ra dirs_in_path <<< "$PATH" | count=0 | for dir in "${dirs_in_path[@]" | do if [ -d "$dir" ] | then | ((count++))| fi| done
